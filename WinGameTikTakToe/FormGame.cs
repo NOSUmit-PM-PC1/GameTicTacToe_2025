@@ -51,7 +51,11 @@ namespace WinGameTikTakToe
             for (int row = 0; row < m.GetLength(0); row++)
             {
                 for (int col = 0; col < m.GetLength(1); col++)
-                    dataGridViewField.Rows[row].Cells[col].Value = Decode(m[row,col]);
+                    if (m[row, col] > 0)
+                    {
+                        dataGridViewField.Rows[row].Cells[col].Style.BackColor = Color.LightCoral;
+                        dataGridViewField.Rows[row].Cells[col].Value = Decode(m[row, col]);
+                    }
             }
         }
         private void FormGame_Load(object sender, EventArgs e)

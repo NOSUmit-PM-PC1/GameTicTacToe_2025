@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTicTacToe", "GameTicTacToe\GameTicTacToe.csproj", "{7E156D9A-FCB8-459C-9D73-B26452493420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinGameTikTakToe", "WinGameTikTakToe\WinGameTikTakToe.csproj", "{13AE323E-4006-40D9-B507-04F1C669A8EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7E156D9A-FCB8-459C-9D73-B26452493420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E156D9A-FCB8-459C-9D73-B26452493420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E156D9A-FCB8-459C-9D73-B26452493420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AE323E-4006-40D9-B507-04F1C669A8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AE323E-4006-40D9-B507-04F1C669A8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AE323E-4006-40D9-B507-04F1C669A8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AE323E-4006-40D9-B507-04F1C669A8EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

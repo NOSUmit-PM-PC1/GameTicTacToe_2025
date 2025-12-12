@@ -45,6 +45,7 @@ namespace GameTicTacToe
              x | x | x 
 
             */
+            Console.Clear();
             for (int row = 0; row < m.GetLength(0); row++)
             {
                 if (row != 0)Console.WriteLine("---+---+---");
@@ -123,7 +124,6 @@ namespace GameTicTacToe
             string text_Error = "";
             while (true)
             {
-                Console.Clear();
                 printFineGameField(gameField);
                 Console.WriteLine(text_Error);
                 if (userStep(user))
